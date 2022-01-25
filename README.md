@@ -1,3 +1,3 @@
 # BozziWebApp
 
-Progetto elementare per l'introduzion delle Razor pages
+Progetto elementare per l'introduzione alle Razor pages
