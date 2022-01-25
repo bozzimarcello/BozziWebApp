@@ -1,0 +1,22 @@
+﻿@page
+@model BozziWebApp.Pages.IndexModel
+@{
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Razor</title>
+    <link href="@Url.Content("~/css/style.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+    <h1>My First Razor page</h1>
+    <p>The server date time is: @DateTime.Now.</p>
+    <form action="/search" method="get">
+        <p>Ricerca:<input type="text" name="query"/>
+        <input type="submit" /></p>
+    </form>
+
+
+</body>
+</html>
